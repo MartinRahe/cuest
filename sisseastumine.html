@@ -15,7 +15,7 @@
 	<script src="custom.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#sisukord">
 <div class="container-narrow">
 	<!-- Pealkiri -->
 	<div class="row">
@@ -24,7 +24,7 @@
 			<h1 class="subtitle">Cambridge Ülikooli Eesti Selts</h1>
 			<ul class="nav nav-pills">
 				<li><a href="index.html">Üritused</a></li>
-				<li><a href="info.html">Lisainfo</a></li>
+				<li><a href="selts.html">Selts</a></li>
 				<li class="active"><a href="">Õppimine Cambridge'is</a></li>
 				<li><a href="english.html">In English</a></li>
 			</ul>
@@ -33,20 +33,36 @@
 	
 	<!-- Sisu -->
 	<div class="row">
-		<div class="span10">
-		<h2>Cambridge'i õppima</h2>
+		<div class="span3" id="sisukord">
+		<ul class="nav nav-list" data-spy="affix" data-offset-top="0">
+			<li class="nav-header">Sisukord</li>
+			<li><a href="#ylikool">Cambridge Ülikool</a></li>
+			<li><a href="#korraldus">Ülikooli korraldus</a></li>
+			<li><a href="#sisseastumine">Sisseastumine</a></li>
+			<li><a href="#raha">Rahaküsimused</a></li>
+			<li><a href="#postgrad">Magistri- ja doktoriõpe</a></li>
+			<li><a href="#lingid">Lingid</a></li>
+		</ul>
+		&nbsp;
+		</div>
+		
+		<div class="span7">
+		<h2 id="ylikool">Cambridge Ülikool</h2>
 		<p>Cambridge ülikool on maailma üks vanimaid ning õppimiseks prestiižsemaid ülikoole maailmas.
 		Cambridge's on läbi aastate õppinud omajagu eestlasi ning igal aastal liitub paar uut <i>undergraduate</i> ja mõned <i>postgraduate</i> tudengid/doktorandid.</p>
 
-		<h2>Undergraduate õpe Cambridge's</h2>
-		<p>Kandideerimine algab sarnaselt iga teisegi UK ülikooli õppima kandideerimisega läbi UCASe Interneti-põhise süsteemi (<a href="http://www.ucas.ac.uk">www.ucas.ac.uk</a>), kuid meeles peab pidama tavalisest varajasemaid tähtaegu – kogu UCASe vorm peab olema täidetud <b>15. oktoobriks</b>. Lisaks enda kohta käivale infole (hinded jms) peab iga kandideerija kirjutama 4600-tähemärgilise Personal Statement'i ning paluma soovituskirja ühelt õpetajalt/ juhendajalt. Erinevalt teistest ülikoolidest, kutsub Cambridge (nagu ka Oxfordi) ülikool kõik potentsiaalsed kandidaadid <b>detsembris</b> vestlusele. Erialast ja kolledžist (vt järgmine lõik) sõltuvalt võib sellele eelneda ka kirjalik test. Hinnanguliselt intervjueerib Cambridge 70-80% kandideerinutest ja intervjuud võib pidada kõige olulisemaks etapiks kogu kandideerimisprotsessis. Mida täpselt intervjuul küsitakse, sõltub erialast, mida soovitakse õppida, kuid üldiselt võib öelda, et küsimused on põhinevad rohkem arutlusvõimel ja "kasti-välisel" mõtlemisel kui faktiteadmistel.</p>
-
+		<h2 id="korraldus">Ülikooli korraldus</h2>
 		<p>Cambridge ülikool kui institutsioon koosneb 30st erinevast kolledžist. Kolledž tuleb kandideerijal valida juba taotluse esitamise hetkel, s.t. hiljemalt 15. oktoobril. Kolledži valikul võib lähtuda erinevatest kriteeriumitest nagu kolledži suurus, asukoht, vanus, soolised eelistused (Cambridge's on kaks vaid tüdrukutele mõeldud kolledžit). Kindlasti tasub võimalusel Cambridge's juba mõnda aega viibinuilt konkreetse kolledži kohta natuke informatsiooni paluda. Ja nagu mainitud, kas intervjuu piirdub vaid vestlusega või tuleb teha ka kirjalik test (või hoopis kaasa võtta enda tehtud töö näidis), sõltub samuti kolledžist. Kõike seda tasub aegsasti enne kandideerimist uurida, kõige täpsema ja asjakohasema info võib leida kolledži enda kodulehelt.</p>
 
-		<p>Lõpetuseks, <b>jaanuari</b> alguses saadetakse väljavalituile <i>conditional</i> või <i>unconditional offer</i> (<i>unconditiona</i> suure tõenäosusega juhul, kui oled gümnaasiumi juba lõpetanud). Tingimuste hulka võivad kuuluda nt. hinded lõputunnistusel, eksamite tulemused või keeletesti läbimine, mis tuleb saata kolledžile niipea, kui nõutud tingimused on täidetud. Lõplik ametlik kinnitus vastuvõtmise kohta saadetakse pärast seda koos täpse edasise infoga.</p>
-
+		<h2 id="sisseastumine">Sisseastumine</h2>
+		<p>Kandideerimine algab sarnaselt iga teisegi UK ülikooli õppima kandideerimisega läbi UCASe Interneti-põhise süsteemi (<a href="http://www.ucas.ac.uk">www.ucas.ac.uk</a>), kuid meeles peab pidama tavalisest varajasemaid tähtaegu – kogu UCASe vorm peab olema täidetud <b>15. oktoobriks</b>. Lisaks enda kohta käivale infole (hinded jms) peab iga kandideerija kirjutama 4600-tähemärgilise Personal Statement'i ning paluma soovituskirja ühelt õpetajalt/ juhendajalt. Erinevalt teistest ülikoolidest, kutsub Cambridge (nagu ka Oxfordi) ülikool kõik potentsiaalsed kandidaadid <b>detsembris</b> vestlusele. Erialast ja kolledžist (vt järgmine lõik) sõltuvalt võib sellele eelneda ka kirjalik test. Hinnanguliselt intervjueerib Cambridge 70-80% kandideerinutest ja intervjuud võib pidada kõige olulisemaks etapiks kogu kandideerimisprotsessis. Mida täpselt intervjuul küsitakse, sõltub erialast, mida soovitakse õppida, kuid üldiselt võib öelda, et küsimused on põhinevad rohkem arutlusvõimel ja "kasti-välisel" mõtlemisel kui faktiteadmistel.</p>
+		<p>Lõpetuseks, <b>jaanuari</b> alguses saadetakse väljavalituile <i>conditional</i> või <i>unconditional offer</i> (<i>unconditional</i> suure tõenäosusega juhul, kui oled gümnaasiumi juba lõpetanud). Tingimuste hulka võivad kuuluda nt. hinded lõputunnistusel, eksamite tulemused või keeletesti läbimine, mis tuleb saata kolledžile niipea, kui nõutud tingimused on täidetud. Lõplik ametlik kinnitus vastuvõtmise kohta saadetakse pärast seda koos täpse edasise infoga.</p>
+		<h2 id="raha">Rahaküsimused</h2>
+		<p>Ei ole üldse nii kallis, kui kardad! Varsti täiendame.</p>
+		<h2 id="postgrad">Magistri- ja doktoriõpe</h2>
+		<p>Kõik on teistmoodi, ära siinset juttu sisseastumise kohta usu. Varsti täiendame.</p>
+		<h2 id="lingid">Lingid</h2>		
 		<p>Küsimuste korral võtta julgelt ühendust – tänaseks on Cambridges eestlasi pea igas kolledžis ning erialal!</p>
-		</div>
 	</div>
 </div>
 </body>
