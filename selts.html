@@ -3,41 +3,59 @@
 <!-- ☃ trying to force utf8 in browsers with snowman -->
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cambridge University Estonian Society homepage">
+    <meta name="author" content="CUEST">
+    <link rel="icon" href="favicon.png">
+    
 	<title>Cambridge University Estonian Society</title>
-	
-	<link rel="stylesheet" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap-responsive.min.css"> -->
-	<link rel="stylesheet" media="screen" href="custom.css">
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
-	<script src="custom.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
 </head>
 
-<body>
-<div class="container-narrow">
-	<!-- Pealkiri -->
-	<div class="row">
-		<div class="span10">
-			<h1 class="maintitle">Cambridge University Estonian Society</h1>
-			<h1 class="subtitle">Cambridge Ülikooli Eesti Selts</h1>
-			<ul class="nav nav-pills">
-				<li><a href="index.html">Üritused</a></li>
-				<li class="active"><a href="">Selts</a></li>
-				<li><a href="sisseastumine.html">Õppimine Cambridge'is</a></li>
-                                <li><a href="sponsorid.html">Sponsorid</a></li>
-				<li><a href="english.html">In English</a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<!-- Sisu -->
-	<div class="row">
-		<div class="span10">
-            
-            <h2>Seltsi juhatus 2013/2014</h2>
-            <div id="juh2013">
+<body role="document">
+    
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">CUEST</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Üritused</a></li>
+            <li class="active"><a href="#">Selts</a></li>
+            <li><a href="sisseastumine.html">Õppimine Cambridge'is</a></li>
+            <li><a href="sponsorid.html">Sponsorid</a></li>
+            <li><a href="english.html">In English</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    <!-- Main jumbotron-->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Cambridge University Estonian Society</h1>
+        
+      </div>
+    </div>
+    
+    <div class="container theme-showcase" role="main">
+        
+    <div class="page-header">
+        <h2>Seltsi juhatus 2013/2014</h2>
+      </div>
+        <div class="row" id="juh2013">
+            <div class="col-md-12">
 		<table>
 		<tr>
 			<td><img class="profilepic" src="img/kadiliis2.jpg"></td><td class="firstcolumn">Kadi Liis Saar (Trinity College)<br>President</td>
@@ -56,10 +74,15 @@
 			<td><img class="profilepic" src="img/laura.jpg"></td><td>Laura Valli (Queens' College)<br>Secretary</td>
 		</tr>
 		</table>
-                </div>
+            </div>
             
-		<h2><a href="javascript:Display('juh2012')">Seltsi juhatus 2012/2013</a></h2>
-            <div id="juh2012" style="display:none;">
+        </div>
+    
+    <div class="page-header">
+        <h3>Seltsi juhatus 2012/2013 <button type="button" class="btn btn-md btn-link" id="juh2012_toggle">Näita/peida</button></h3> 
+      </div>
+        <div class="row" id="juh2012"  style="display:none;">
+            <div class="col-md-12">
 		<table>
 		<tr>
 			<td><img class="profilepic" src="img/kadiliis2.jpg"></td><td class="firstcolumn">Kadi Liis Saar (Trinity College)<br>President</td>
@@ -78,10 +101,15 @@
 			<td><img class="profilepic" src="img/helen.jpg"></td><td>Helen Ginter (Fitzwilliam College)<br>Secretary</td>
 		</tr>
 		</table>
-                </div>
-
-		<h2>Seltsi põhikiri</h2>
-		<h3>1. Name</h3>
+            </div>
+            </div>
+    
+    <div class="page-header">
+        <h2>Seltsi põhikiri</h2>
+      </div>
+        <div class="row" id="constitution">
+        <div class="col-md-12">
+        <h3>1. Name</h3>
 		<p>The name of the Society shall be "The Cambridge University Estonian Society" hereafter referred to as "the Society".</p>
 		<h3>2. Objects</h3>
 		<p>(1) The Society's aims shall be to promote Estonian culture at the University of Cambridge and support new Estonian students at the University. The Society also acts as a source of information for Estonians who are interested in studying in Cambridge.</p>
@@ -113,8 +141,15 @@
 		<h3>7. Dissolution</h3>
 		<p>(1) The Society may be dissolved at a General Meeting provided that at least Twenty-one days written notice of the intention to dissolve the Society has been given to the members. At least two thirds of those present and voting at the General Meeting must vote in favour of the motion for Dissolution for it to be effective.</p>
 		<p>(2) Any motion for Dissolution of the Society shall provide that assets remaining after all liabilities have been met shall be transferred either to another Registered University Society, or to the Society's Syndicate.</p>
-		</div>
-	</div>
-</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="theme.js"></script>
 </body>
 </html>

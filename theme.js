@@ -3,6 +3,9 @@ var main = function() {
         $('#varasemad').toggle();
     });
     
+    $('#juh2012_toggle').click(function() {
+        $('#juh2012').toggle();
+    });
 };
 
 $(document).ready(main);

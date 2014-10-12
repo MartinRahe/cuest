@@ -73,3 +73,11 @@ body {
     font-size: 5vw;
     text-shadow: 0px 0px 5px #000, 0px 0px 5px #000;
 }
+
+.profilepic {
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 8px;
+}
