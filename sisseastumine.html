@@ -3,52 +3,68 @@
 <!-- ☃ trying to force utf8 in browsers with snowman -->
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cambridge University Estonian Society homepage">
+    <meta name="author" content="CUEST">
+    <link rel="icon" href="favicon.png">
+    
 	<title>Cambridge University Estonian Society</title>
-	
-	<link rel="stylesheet" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap-responsive.min.css"> -->
-	<link rel="stylesheet" media="screen" href="custom.css">
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
-	<script src="custom.js"></script>
-	
-	<style>.affix { top: 18px; } </style>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
 </head>
 
-<body data-spy="scroll" data-target="#sisukord">
-<div class="container-narrow">
-	<!-- Pealkiri -->
-	<div class="row">
-		<div class="span10">
-			<h1 class="maintitle">Cambridge University Estonian Society</h1>
-			<h1 class="subtitle">Cambridge Ülikooli Eesti Selts</h1>
-			<ul class="nav nav-pills">
-				<li><a href="index.html">Üritused</a></li>
-				<li><a href="selts.html">Selts</a></li>
-				<li class="active"><a href="">Õppimine Cambridge'is</a></li>
-                <li><a href="sponsorid.html">Sponsorid</a></li>
-				<li><a href="english.html">In English</a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<!-- Sisu -->
-	<div class="row">
-		<div class="span3" id="sisukord">
-		<ul class="nav nav-list" data-spy="affix" data-offset-top="170">
-			<li class="nav-header">Sisukord</li>
+<body role="document" data-spy="scroll" data-target="#sisukord">
+    
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">CUEST</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Üritused</a></li>
+            <li><a href="selts.html">Selts</a></li>
+            <li class="active"><a href="#">Õppimine Cambridge'is</a></li>
+            <li><a href="sponsorid.html">Sponsorid</a></li>
+            <li><a href="english.html">In English</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    <!-- Main jumbotron-->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Cambridge University Estonian Society</h1>
+        
+      </div>
+    </div>
+    
+    <div class="container theme-showcase" role="main">
+        <div class="row">
+            
+        <div class="col-md-3">
+            <div class="hidden-print hidden-xs hidden-sm" id="sisukord" role="complementary">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="270">
 			<li><a href="#ylikool">Cambridge Ülikool</a></li>
 			<li><a href="#korraldus">Ülikooli korraldus</a></li>
 			<li><a href="#undergrad">Bakalauruseõpe<br>(<i>undergraduate study</i>)</a></li>
 			<li><a href="#postgrad">Magistri- ja doktoriõpe<br>(<i>postgraduate study</i>)</a></li>
 		</ul>
-		&nbsp;
-		</div>
-		
-		<div class="span7">
-		<h2 id="ylikool">Cambridge Ülikool</h2>
+                </div>
+            </div>
+            
+        <div class="col-md-9" id="sisseast">
+        <h2 id="ylikool">Cambridge Ülikool</h2>
 		<p>Cambridge ülikool on maailma üks vanimaid ning prestiižsemaid ülikoole.
 		Läbi aastate on siin õppinud omajagu eestlasi (kes moodustavad täna <a href="http://www.oxbridgeestonia.org/" target="_blank">Oxford and Cambridge Club Estonia</a>; <i>Oxbridge</i> on Oxfordi ja Cambridge'i ülikoolide koondnimetus). Viimastel aastatel on liitunud paar uut tudengit igal aastal.</p>
 
@@ -93,7 +109,7 @@
 
 
 
-<h2 id="postgrad">Rahaküsimused (magistri- ja doktoriõpe)</h2>
+<h2 id="post_raha">Rahaküsimused (magistri- ja doktoriõpe)</h2>
 	
 <p>Magistriõppe puhul on õppemaks on suurusjärgus 9000 naela aastas, millele lisanduvad elamiskulud. See raha tuleb tasuda kolmes osas - enne iga trimestri algust. Tudeng peab juba enne õppeaasta algust tõestama, et tal on vajalik raha kogu aastaks olemas (s.o. <i>ca</i> 16000 naela, elamiskuludeks hinnatakse seega 7000 naela aastas, kuigi täpne väärtus sõltub arusaadavalt tudengist). On tudengeid, kes saavad selle raha ühelt või enamalt ülikoolisiseselt (s.h. kolledž) või -väliselt organisatsioonilt toetusena (vt. järgmine lõik) ja neid, kes tasuvad selle ise. Doktoriõppe puhul on tudengil enamasti ülikooli, kolledži, või mõne kolmanda asutuse poolt makstav stipendium, mis jääb vahemikku 13000-16000 naela (mõne stipendiumi puhul ka 20000+ naela) ja katab elamiskulud. Samas on ka tudengeid, kes katavad ka doktoriõppe puhul need kulud ise.</p>
 
@@ -108,8 +124,16 @@
 <a href="http://adm.archimedes.ee/stipendiumid/kristjan-jaak/kristjan-jaagu-tasemeoppe-stipendium/" target="_blank">Kristjan Jaagu tasemeõppe stipendium</a> (üheaastaseid magistriõpinguid Kristjan Jaagu raames üldiselt ei toetata, kuid toetuse saamine on võimalik, kui Cambridge'is õppimise ajal ollakse magistrandina immatrikuleeritud mõnda Eesti ülikooli ja lõpetatakse hiljem ka too ülikool.) </p>
 
 		<p>Küsimuste korral <a href="mailto:soc-cuest@lists.cam.ac.uk">võtta julgelt ühendust</a> - tänaseks on Cambridge's eestlasi pea igas kolledžis ning erialal!</p>
-	    </div>
+            </div>
+        </div>
+        
     </div>
-</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="theme.js"></script>
 </body>
 </html>

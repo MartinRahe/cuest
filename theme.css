@@ -1,6 +1,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
+    position: relative;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -80,4 +81,19 @@ body {
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	margin: 8px;
+}
+
+.affix-top {
+    position: static;
+    margin-top:40px;
+}
+
+.affix {
+    position: fixed;
+    top:70px;
+}
+
+#sisseast h2 {
+    padding-top: 60px;
+    margin-top: -40px;
 }
