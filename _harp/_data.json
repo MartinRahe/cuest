@@ -14,7 +14,15 @@
         ]
     },
     "admission": {
-        "title": "Õppimine Cambridge's"
+        "title": "Õppimine Cambridge's",
+        "sections": {
+            "university": "Cambridge Ülikool",
+            "organisation": "Ülikooli korraldus",
+            "undergraduate": "Bakalauruseõppesse (undergraduate) kandideerimine",
+            "undergraduate_fees": "Rahaküsimused (bakalauruseõpe)",
+            "graduate": "Magistri- ja doktoriõppesse (postgraduate) kandideerimine",
+            "graduate_fees": "Rahaküsimused (magistri- ja doktoriõpe)"
+        }
     },
     "partners": {
         "title": "Partnerid"
