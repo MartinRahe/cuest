@@ -10,16 +10,15 @@ võib pidada tudengisõbralikuks, sest maksmist ei pea alustama mitte
 kohe pärast õpingute lõppu, vaid siis, kui regulaarne sissetulek on
 ületanud kindla summa. Ühtlasi peatub tagasimaksmine, kui sissetulek
 peaks alla selle summa
-langema. ([http://en.wikipedia.org/wiki/Student_loans_in_the_United_Kingdom](http://en.wikipedia.org/wiki/Student_loans_in_the_United_Kingdom)).
+langema. [[1]](http://en.wikipedia.org/wiki/Student_loans_in_the_United_Kingdom)
 
 Elamiskulud - üks faktor, mille tõttu õppimine Cambridge's võib
 osutuda soodsamakski kui teistes (elatustasemelt sarnase asukohaga) UK
-ülikoolides. _Cambridge Bursary_ süsteemi vahendusel on elamiskulude
-katteks võimalik taotleda toetust tundengitel, kelle perekonna
-sissetulek jääb alla 42 600 naela (ligikaudu 51 500 €) aastas
-(vt. [http://www.admin.cam.ac.uk/univ/cambridgebursary/2012/eu/](http://www.admin.cam.ac.uk/univ/cambridgebursary/2012/eu/)). Kolledžitel
-võib samuti olla sobivaid toetusskeeme. Ülevaate erinevate võimaluste
-kohta võib leida
+ülikoolides. [Cambridge Bursary](http://www.admin.cam.ac.uk/univ/cambridgebursary/2012/eu/) süsteemi
+vahendusel on elamiskulude katteks võimalik taotleda toetust
+tundengitel, kelle perekonna sissetulek jääb alla 42 600 naela
+(ligikaudu 51 500 €) aastas. Kolledžitel võib samuti olla sobivaid
+toetusskeeme. Ülevaate erinevate võimaluste kohta võib leida
 ka
 [Cambridge University Student Union'i kodulehelt](http://www.cusu.cam.ac.uk/campaigns/rents/support.html).
 
