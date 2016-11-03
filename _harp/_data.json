@@ -3,7 +3,15 @@
         "title": "Kalender"
     },
     "selts": {
-        "title": "Selts"
+        "title": "Selts",
+        "this_year": 2015,
+        "history": [
+            2014,
+            2013,
+            2012,
+            2011,
+            2010
+        ]
     },
     "admission": {
         "title": "Õppimine Cambridge's"

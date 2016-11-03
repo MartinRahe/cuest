@@ -1,23 +1,13 @@
 .page-header
-  h2 Seltsi juhatus 2015/2016
-
+  h2= "Seltsi juhatus " + this_year + "/" + (this_year + 1)
 .row: .col-md-12
-  != partial("_committee_2015")
+  != partial("_committee_" + this_year)
 
-.page-header
-  h3: a(href="#committee-history" data-toggle="collapse") Seltsi juhatuse ajalugu
-
+h3: a(href="#committee-history" data-toggle="collapse") Seltsi juhatuse ajalugu
 .row.collapse#committee-history: .col-md-12
-  h4 Juhatus 2014/2015
-  != partial("_committee_2014")
-  h4 Juhatus 2013/2014
-  != partial("_committee_2013")
-  h4 Juhatus 2012/2013
-  != partial("_committee_2012")
-  h4 Juhatus 2011/2012
-  != partial("_committee_2011")
-  h4 Juhatus 2010/2011
-  != partial("_committee_2010")
+  for year in history
+    h4= "Juhatus " + year + "/" + (year + 1)
+    != partial("_committee_" + year)
 
 .page-header
   h2 Seltsi põhikiri
