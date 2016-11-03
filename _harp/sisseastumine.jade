@@ -1,3 +1,22 @@
 .row
-  .col-md-12
-    != partial("_sisseastumine")
+  .col-md-9.col-xs-12#main
+    h2#university Cambridge Ülikool
+    != partial("_admission_university")
+    h2#organisation Ülikooli korraldus
+    != partial("_admission_organisation")
+    h2#undergraduate Bakalauruseõppesse (undergraduate) kandideerimine
+    != partial("_admission_undergraduate")
+    h2#undergraduate-fees Rahaküsimused (bakalauruseõpe)
+    != partial("_admission_undergraduate_fees")
+    h2#graduate Magistri- ja doktoriõppesse (postgraduate) kandideerimine
+    != partial("_admission_graduate")
+    h2#graduate-fees Rahaküsimused (magistri- ja doktoriõpe)
+    != partial("_admission_graduate_fees")
+  .col-md-3#nav-main
+    ul.nav.nav-pills.nav-stacked
+      li: a(href="#university") Cambridge Ülikool
+      li: a(href="#organisation") Ülikooli korraldus
+      li: a(href="#undergraduate") Bakalauruseõppesse kandideerimine
+      li: a(href="#undergraduate-fees") Rahaküsimused (bakalauruseõpe)
+      li: a(href="#graduate") Magistri- ja doktoriõppesse kandideerimine
+      li: a(href="#graduate-fees") Rahaküsimused (magistri- ja doktoriõpe)
