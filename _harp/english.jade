@@ -1,3 +1,5 @@
+include _mixins
+
 .row
   .col-md-8
     != partial("_welcome_en")
@@ -13,40 +15,22 @@
 .page-header
   h1 Events
 
-mixin event(date, name, href)
-  tr
-    td.date= date
-    td
-      if href
-        a(href=href)= name
-      else
-        = name
-mixin term(name)
-  h2= name
-  table.table
-    thead
-      tr
-        th Date
-        th Event
-    tbody
-      block
-
 .row
   .col-md-12
-    +term("Michaelmas Term 2016")
+    +term_en("Michaelmas Term 2016")
       +event("1 Dec", "Baltic Bridgemas Social", "https://www.facebook.com/events/361363070884914/")
       +event("12 Nov", "Cambridge Baltic Conference", "http://www.cambridgebalticconference.eu/2016/") 
       +event("2 Nov", "Annual General Meeting")
       +event("12 Oct", "Pub night at The Maypole")
 .row
   .col-md-6
-    +term("Lent Term 2016")
+    +term_en("Lent Term 2016")
       +event("Jan", "Film night at Trinity")
       +event("Feb", "Formal at Trinity")
       +event("24 Feb", "Estonian Independence Day")
       +event("Mar", "Vodka Party")
   .col-md-6
-    +term("Michaelmas Term 2015")
+    +term_en("Michaelmas Term 2015")
       +event("29 Nov", "Baltic Christmas pub night")
       +event("18 Nov", "Arvo Pärt: Passio concert", "http://www.kings.cam.ac.uk/events/concerts-at-kings/")
       +event("17 Nov", "Formal at Homerton College")

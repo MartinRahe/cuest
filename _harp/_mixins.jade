@@ -1,0 +1,28 @@
+mixin event(date, name, href)
+  tr
+    td.date= date
+    td
+      if href
+        a(href=href)= name
+      else
+        = name
+
+mixin term_ee(name)
+  h2= name
+  table.table
+    thead
+      tr
+        th Kuupäev
+        th Üritus
+    tbody
+      block
+
+mixin term_en(name)
+  h2= name
+  table.table
+    thead
+      tr
+        th Date
+        th Event
+    tbody
+      block

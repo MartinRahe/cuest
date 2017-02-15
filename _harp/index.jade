@@ -1,3 +1,5 @@
+include _mixins
+
 .row
   .col-md-8
     != partial("_welcome_ee")
@@ -16,40 +18,22 @@
 .page-header
   h1 Üritused
 
-mixin event(date, name, href)
-  tr
-    td.date= date
-    td
-      if href
-        a(href=href)= name
-      else
-        = name
-mixin term(name)
-  h2= name
-  table.table
-    thead
-      tr
-        th Kuupäev
-        th Üritus
-    tbody
-      block
-
 .row
   .col-md-12
-    +term("Michaelmas Term 2016")
+    +term_ee("Michaelmas Term 2016")
       +event("1 Dec", "Baltic Bridgemas Social", "https://www.facebook.com/events/361363070884914/")
       +event("12 Nov", "Cambridge Baltic Conference", "http://www.cambridgebalticconference.eu/2016/") 
       +event("2 Nov", "Annual General Meeting")
       +event("12 Oct", "Pubiõhtu Maypole's")
 .row
   .col-md-6
-    +term("Lent Term 2016")
+    +term_ee("Lent Term 2016")
       +event("Jan", "Filmiõhtu Trinitys")
       +event("Feb", "Formal Trinitys")
       +event("24 Feb", "Eesti Vabariigi aastapäev")
       +event("Mar", "Viinapidu")
   .col-md-6
-    +term("Michaelmas Term 2015")
+    +term_ee("Michaelmas Term 2015")
       +event("29 Nov", "Balti jõuluteemaline pubiõhtu")
       +event("18 Nov", "Arvo Pärt: Passio kontsert", "http://www.kings.cam.ac.uk/events/concerts-at-kings/")
       +event("17 Nov", "Formal Homerton College's")
