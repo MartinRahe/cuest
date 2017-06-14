@@ -1,13 +1,13 @@
 .page-header
   h2= "Seltsi juhatus " + this_year + "/" + (this_year + 1)
 .row: .col-md-12
-  != partial("_committee_" + this_year)
+  != partial("_committee/" + this_year)
 
 h3: a(href="#committee-history" data-toggle="collapse") Seltsi juhatuse ajalugu
 .row.collapse#committee-history: .col-md-12
   for year in history
     h4= "Juhatus " + year + "/" + (year + 1)
-    != partial("_committee_" + year)
+    != partial("_committee/" + year)
 
 .page-header
   h2 Seltsi põhikiri 
