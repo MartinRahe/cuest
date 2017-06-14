@@ -2,7 +2,7 @@
   .col-md-9.col-xs-12#main
     for section, slug in sections
       h2(id=slug)= section
-      != partial("_admission_" + slug)
+      != partial("_admission/" + slug)
   .col-md-3
     .hidden-xs.hidden-sm.hidden-print#nav-main
       ul.nav.nav-pills.nav-stacked
