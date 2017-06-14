@@ -1,13 +1,16 @@
+- var years = public.committee._contents.sort().reverse().map(function(x) { return Number(x.split(".")[0]); })
+
 .page-header
-  h2= "Seltsi juhatus " + this_year + "/" + (this_year + 1)
+  - var year = years.shift()
+  h2= "Seltsi juhatus " + year + "/" + (year + 1)
 .row: .col-md-12
-  != partial("_committee/" + this_year)
+  != partial("committee/" + year)
 
 h3: a(href="#committee-history" data-toggle="collapse") Seltsi juhatuse ajalugu
 .row.collapse#committee-history: .col-md-12
-  for year in history
+  for year in years
     h4= "Juhatus " + year + "/" + (year + 1)
-    != partial("_committee/" + year)
+    != partial("committee/" + year)
 
 .page-header
   h2 Seltsi põhikiri 
