@@ -26,3 +26,12 @@ mixin term_en(name)
         th Event
     tbody
       block
+
+mixin member(photo, name, role)
+  li.media
+    .media-left
+      img.media-object.img-rounded(src=photo)
+    .media-body
+      = name
+      br
+      = role

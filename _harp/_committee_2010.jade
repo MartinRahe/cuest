@@ -1,47 +1,13 @@
+include _mixins
+
 .row
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Annela Anger-Kraavi (Downing College)
-          br
-          | President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Halliki Voolma (King's College)
-          br
-          | Vice President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/toomas.jpg')
-        .media-body
-          | Toomas Kivisild (Department of Archeology 
-          br
-          | and Anthropology) Senior Treasurer
+      +member("img/user.png", "Annela Anger-Kraavi (Downing College)", "President")
+      +member("img/user.png", "Halliki Voolma (King's College)", "Vice President")
+      +member("img/toomas.jpg", "Toomas Kivisild (Department of Archeology ", "and Anthropology) Senior Treasurer")
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Ave Lauren (King's College)
-          br
-          | Junior Treasurer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Kadri Siff (Jesus College)
-          br
-          | Social Secretary
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Astrid Tishler (Girton College)
-          br
-          | Secretary
+      +member("img/user.png", "Ave Lauren (King's College)", "Junior Treasurer")
+      +member("img/user.png", "Kadri Siff (Jesus College)", "Social Secretary")
+      +member("img/user.png", "Astrid Tishler (Girton College)", "Secretary")

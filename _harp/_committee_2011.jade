@@ -1,54 +1,14 @@
+include _mixins
+
 .row
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Annela Anger-Kraavi (Downing College)
-          br
-          | President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Juhan Aru (Trinity College)
-          br
-          | Vice President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/toomas.jpg')
-        .media-body
-          | Toomas Kivisild (Department of Archeology 
-          br
-          | and Anthropology) Senior Treasurer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/seio.jpg')
-        .media-body
-          | Seio Saks (St John's College)
-          br
-          | Junior Treasurer
+      +member("img/user.png", "Annela Anger-Kraavi (Downing College)", "President")
+      +member("img/user.png", "Juhan Aru (Trinity College)", "Vice President")
+      +member("img/toomas.jpg", "Toomas Kivisild (Department of Archeology ", "and Anthropology) Senior Treasurer")
+      +member("img/seio.jpg", "Seio Saks (St John's College)", "Junior Treasurer")
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/user.png')
-        .media-body
-          | Danel Ahman (Hughes Hall)
-          br
-          | IT Officer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/rauno.jpg')
-        .media-body
-          | Rauno Siinmaa (Queens' College)
-          br
-          | Social Secretary
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/laura_uus.jpg')
-        .media-body
-          | Laura Valli (Queens' College)
-          br
-          | Secretary
+      +member("img/user.png", "Danel Ahman (Hughes Hall)", "IT Officer")
+      +member("img/rauno.jpg", "Rauno Siinmaa (Queens' College)", "Social Secretary")
+      +member("img/laura_uus.jpg", "Laura Valli (Queens' College)", "Secretary")

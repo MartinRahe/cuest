@@ -1,61 +1,15 @@
+include _mixins
+
 .row
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/kadiliis2.jpg')
-        .media-body
-          | Kadi Liis Saar (Trinity College)
-          br
-          | President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/kert.jpg')
-        .media-body
-          | Kert Pütsepp (King's College)
-          br
-          | Vice President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/toomas.jpg')
-        .media-body
-          | Toomas Kivisild (Department of Archeology 
-          br
-          | and Anthropology) Senior Treasurer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/seio.jpg')
-        .media-body
-          | Seio Saks (St John's College)
-          br
-          | Junior Treasurer
+      +member("img/kadiliis2.jpg", "Kadi Liis Saar (Trinity College)", "President")
+      +member("img/kert.jpg", "Kert Pütsepp (King's College)", "Vice President")
+      +member("img/toomas.jpg", "Toomas Kivisild (Department of Archeology ", "and Anthropology) Senior Treasurer")
+      +member("img/seio.jpg", "Seio Saks (St John's College)", "Junior Treasurer")
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/mattias.jpg')
-        .media-body
-          | Mattias Linnap (Churchill College)
-          br
-          | IT Officer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/rauno.jpg')
-        .media-body
-          | Rauno Siinmaa (Queens' College)
-          br
-          | Social Secretary
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/tiina.jpg')
-        .media-body
-          | Tiina Annus (Sidney Sussex College)
-          br
-          | Social Secretary
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/helen.jpg')
-        .media-body
-          | Helen Ginter (Fitzwilliam College)
-          br
-          | Secretary
+      +member("img/mattias.jpg", "Mattias Linnap (Churchill College)", "IT Officer")
+      +member("img/rauno.jpg", "Rauno Siinmaa (Queens' College)", "Social Secretary")
+      +member("img/tiina.jpg", "Tiina Annus (Sidney Sussex College)", "Social Secretary")
+      +member("img/helen.jpg", "Helen Ginter (Fitzwilliam College)", "Secretary")

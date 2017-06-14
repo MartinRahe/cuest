@@ -1,61 +1,15 @@
+include _mixins
+
 .row
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/kristian.jpg')
-        .media-body
-          | Kristian Sutt (Homerton College)
-          br
-          | President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/teisi.jpg')
-        .media-body
-          | Teisi Tamming (Homerton College)
-          br
-          | Vice President
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/toomas.jpg')
-        .media-body
-          | Toomas Kivisild (Department of Archeology 
-          br
-          | and Anthropology) Senior Treasurer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/kauraare.jpg')
-        .media-body
-          | Kaur Aare Saar (Trinity College)
-          br
-          | Junior Treasurer
+      +member("img/kristian.jpg", "Kristian Sutt (Homerton College)", "President")
+      +member("img/teisi.jpg", "Teisi Tamming (Homerton College)", "Vice President")
+      +member("img/toomas.jpg", "Toomas Kivisild (Department of Archeology ", "and Anthropology) Senior Treasurer")
+      +member("img/kauraare.jpg", "Kaur Aare Saar (Trinity College)", "Junior Treasurer")
   .col-md-6
     ul.media-list
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/edward.jpg')
-        .media-body
-          | Edward Erelt (Trinity College)
-          br
-          | Secretary
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/jaan2.jpg')
-        .media-body
-          | Jaan Toots (Trinity College)
-          br
-          | Webmaster
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/joonas.jpg')
-        .media-body
-          | Joonas Kalda (Peterhouse)
-          br
-          | Communications Officer
-      li.media
-        .media-left
-          img.media-object.img-rounded(src='img/rasmus.jpg')
-        .media-body
-          | Rasmus Kisel (Trinity College)
-          br
-          | General Member
+      +member("img/edward.jpg", "Edward Erelt (Trinity College)", "Secretary")
+      +member("img/jaan2.jpg", "Jaan Toots (Trinity College)", "Webmaster")
+      +member("img/joonas.jpg", "Joonas Kalda (Peterhouse)", "Communications Officer")
+      +member("img/rasmus.jpg", "Rasmus Kisel (Trinity College)", "General Member")
