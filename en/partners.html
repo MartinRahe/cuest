@@ -16,7 +16,12 @@
         <link rel="icon" href="/favicon.png" />
     </head>
     <body>
-	<iframe src="navbar.html" ></iframe>
+	<div id="nav-placeholder"></div>
+	<script src="https://code.jquery.com/jquery-1.12.4.js">
+	$(function(){
+		$("#nav-placeholder").load("navbar.html");
+	});
+	</script>
     <!--<nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
