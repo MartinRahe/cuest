@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="et">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false"
+			class="navbar-toggle collapsed">
+				<span class="sr-only">Toggle navigation</span>
+			</button> 
+			<a href="/" id="navbar-brand-main" class="navbar-brand">CUEST</a></div>
+			<div id="navbar-main" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<!--<li>
+						<a href="calendar">Kalender</a>
+					</li>-->
+					<li id="society">
+						<a href="javascript:if(self.location.href.split('/').pop()=='society'){}else{document.location.href='society';}">Selts</a>
+					</li>
+					<li id="admission">
+						<a href="javascript:if(self.location.href.split('/').pop()=='admission'){}else{document.location.href='admission';}">Õppimine Cambridge&#39;s'</a>
+					</li>
+					<li id="partners">
+						<a href="javascript:if(self.location.href.split('/').pop()=='partners'){}else{document.location.href='partners';}">Partnerid</a>
+					</li>
+					<li>
+						<a href="javascript:document.location.href=self.location.href.replace('net/', 'net/en/');" lang="en-GB" hreflang="en-GB">In English</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</html>
