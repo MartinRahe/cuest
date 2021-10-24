@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="et">
+<html lang="en-GB">
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -12,7 +12,8 @@
 	</head>
 	<body>
 	<script id="replace_with_navbar" src="navbar.js"></script>
-	<script>window.onload = function() {setTimeout(() => {document.getElementById(self.location.href.split('/').pop()).className = "active";},0)};</script>
+	<script>window.onload=function(){setTimeout(()=>{document.getElementById(self.location.href.split('/').pop()).className="active";},0)};</script>
+	<script>alert(document.documentElement.lang);</script>
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Cambridge University Estonian Society</h1>
