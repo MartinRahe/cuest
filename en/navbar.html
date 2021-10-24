@@ -14,7 +14,7 @@
 						<a href="calendar">Kalender</a>
 					</li>-->
 					<li id="society">
-						<a href="javascript:if(self.location.href.split('/').pop()=='society'){}else{document.location.href='society';}">Society</a>
+						<a href="javascript:if(self.location.href.split('/').pop()=='society'){}else{document.location.href='society';}"><script>if(document.documentElement.lang=='en-GB'){document.write('Society');}else{document.write('Selts');}</script></a>
 					</li>
 					<li id="admission">
 						<a href="javascript:if(self.location.href.split('/').pop()=='admission'){}else{document.location.href='admission';}">Studying in Cambridge</a>
@@ -25,6 +25,7 @@
 					<li>
 						<a href="javascript:document.location.href=self.location.href.replace('/en/', '/');">Eesti Keeles</a>
 					</li>
+					<script>alert(document.documentElement.lang);</script>
 				</ul>
 			</div>
 		</div>
