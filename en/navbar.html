@@ -1,4 +1,19 @@
 <html lang="en-GB">
+	<script type="text/javascript">
+	function stripLangDir(lang){
+		var url = self.location.href;
+		var RE = new RegExp('/' + lang + '/');
+		return url.replace(RE, '/');
+	}
+
+	function addLangDir(lang)
+	{
+		var url = self.location.href;
+		var RE = new RegExp('(\\.net/)');
+		return url.replace(RE, '$1' + lang + '/');
+	}
+	var noLangDir = stripLangDir("en");
+	</script>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -21,8 +36,8 @@
 					<li>
 						<a href="partners">Partners</a>
 					</li>
-					<li class="active">
-						<a href="../" + window.location.href.substring(window.location.href.lastIndexOf('/') + 1)>Eesti Keeles</a>
+					<li>
+						<a href="javascript:document.location.href=stripLangDir('en');">Eesti Keeles</a>
 					</li>
 				</ul>
 			</div>
