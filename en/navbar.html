@@ -16,18 +16,19 @@
 					<!--<li>
 						<a href="calendar">Kalender</a>
 					</li>-->
-					<li class="">
+					<li id="society">
 						<a href="javascript:if(self.location.href.split('/').pop()=='society'){}else{document.location.href='society';}">Society</a>
 					</li>
-					<li>
+					<li id="admission">
 						<a href="javascript:if(self.location.href.split('/').pop()=='admission'){}else{document.location.href='admission';}">Studying in Cambridge</a>
 					</li>
-					<li>
+					<li id="partners">
 						<a href="javascript:if(self.location.href.split('/').pop()=='partners'){}else{document.location.href='partners';}">Partners</a>
 					</li>
 					<li>
 						<a href="javascript:document.location.href=self.location.href.replace('/en/', '/');">Eesti Keeles</a>
 					</li>
+					<script>document.getElementById("society").className = "active";</script>
 				</ul>
 			</div>
 		</div>
