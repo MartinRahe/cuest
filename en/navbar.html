@@ -1,4 +1,8 @@
+<!DOCTYPE html>
 <html lang="en-GB">
+<script src=
+"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+</script>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -19,10 +23,10 @@
 						<a href="admission">Studying in Cambridge</a>
 					</li>
 					<li>
-						<a href="partners">Partners</a>
+						<a href="javascript:if(self.location.href.split('/').pop()=='partners'){document.location.href='#';}else{document.location.href='partners';}">Partners</a>
 					</li>
 					<li>
-						<a href="javascript:document.location.href=self.location.href.replace('/en/', '/')">Eesti Keeles</a>
+						<a href="javascript:document.location.href=self.location.href.replace('/en/', '/');">Eesti Keeles</a>
 					</li>
 				</ul>
 			</div>
