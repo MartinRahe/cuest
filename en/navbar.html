@@ -16,7 +16,7 @@
 					<!--<li>
 						<a href="calendar">Kalender</a>
 					</li>-->
-					<li class="<%= 'ok' if self.location.href.split('/').pop()=='society' %>">
+					<li class="<%= 'active' if self.location.href.split('/').pop()=='society' %>">
 						<a href="javascript:if(self.location.href.split('/').pop()=='society'){}else{document.location.href='society';}">Society</a>
 					</li>
 					<li>
