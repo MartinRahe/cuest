@@ -6,8 +6,5 @@ fetch('navbar.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
-if(self.location.href.split('/').pop() == "")
-{var id = "index";
-window.onload=function(){setTimeout(()=>{document.getElementById(id).className+=" active";},50)};}
-else{var id = self.location.href.split('/').pop();
-window.onload=function(){setTimeout(()=>{document.getElementById(id).className="active";},50)};}
+if(self.location.href.split('/').pop() == ""){var id = "home";}else{var id = self.location.href.split('/').pop();}
+window.onload=function(){setTimeout(()=>{document.getElementById(id).className="active";},50)};

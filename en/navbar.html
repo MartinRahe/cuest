@@ -2,17 +2,20 @@
 <html lang="en-GB">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
-			<div class="navbar-header" id="index">
+			<div class="navbar-header">
 			<button type="button" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false"
 			class="navbar-toggle collapsed">
 				<span class="sr-only">Toggle navigation</span>
 			</button>
-			<a href="./" id="navbar-brand-main" class="navbar-brand">CUEST</a></div>
+			<a href="/" id="navbar-brand-main" class="navbar-brand">CUEST</a></div>
 			<div id="navbar-main" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<!--<li>
 						<a href="calendar">Kalender</a>
 					</li>-->
+					<li id="home">
+						<a href="javascript:if(self.location.href.split('/').pop()==''){}else{document.location.href='./';}">Home</a>
+					</li>
 					<li id="society">
 						<a href="javascript:if(self.location.href.split('/').pop()=='society'){}else{document.location.href='society';}">Society</a>
 					</li>
