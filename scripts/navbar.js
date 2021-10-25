@@ -8,4 +8,4 @@ fetch('navbar.html')
 })
 if(self.location.href.split('/').pop() == ""){var id = "navbar-brand-main"}else{var id = self.location.href.split('/').pop();}
 alert(id);
-window.onload=function(){setTimeout(()=>{document.getElementById(id).className="active";},50)};
+window.onload=function(){setTimeout(()=>{document.getElementById(id).className+="active";},50)};
