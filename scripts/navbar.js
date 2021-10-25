@@ -6,4 +6,4 @@ fetch('navbar.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
-alert(self.location.href.split('/').pop() == null);
+alert(self.location.href.split('/').pop() == "");
