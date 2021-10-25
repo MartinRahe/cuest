@@ -6,5 +6,5 @@ fetch('navbar.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
-if(self.location.href.split('/').pop() == ""){var id = "indeks";}else{var id = self.location.href.split('/').pop();}
+if(self.location.href.split('/').pop() == ""){var id = "index";}else{var id = self.location.href.split('/').pop();}
 window.onload=function(){setTimeout(()=>{document.getElementById(id).className="active";},50)};
