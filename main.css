@@ -84,13 +84,13 @@ body{
 	margin-top:-48px
 }
 ::-webkit-scrollbar {
-	all:unset;
+	all:auto;
 }
 body::-webkit-scrollbar-track {
-	all:unset;
+	all:auto;
 }
 body::-webkit-scrollbar-thumb {
-	all:unset;
+	all:auto;
 }
 .navbar-default {
 	background-color: var(--navbar-bg);
