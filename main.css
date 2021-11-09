@@ -84,8 +84,8 @@ body{
 	margin-top:-48px
 }
 ::-webkit-scrollbar {
-	background: blue;
 	all:auto;
+	background: blue;
 }
 ::-webkit-scrollbar-button {
 	all:auto;
