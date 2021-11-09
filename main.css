@@ -76,6 +76,8 @@ body{
 .navbar-default {
 	background-color: var(--navbar-bg);
     border-color: var(--navbar-border);
+}
+.navbar-default .navbar-nav > li > a {
 	color: var(--navbar-text);
 }
 .navbar-default .navbar-nav > .active > a {
