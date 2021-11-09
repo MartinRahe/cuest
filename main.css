@@ -102,6 +102,10 @@ body::-webkit-scrollbar-thumb {
 .navbar-default .navbar-nav > li > a {
 	color: var(--navbar-text);
 }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: var(--navbar-hover-text);
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -114,6 +118,13 @@ body::-webkit-scrollbar-thumb {
 	background-color: var(--navbar-bg);
 	color: var(--navbar-text);
 }
-.navbar-default .navbar-nav > li > a:hover {
-	color: var(--navbar-hover-text);
+.navbar-default .navbar-toggle {
+    border-color: var(--navbar-border);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: var(--navbar-active-bg);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--navbar-text);
 }
