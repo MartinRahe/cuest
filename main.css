@@ -79,7 +79,7 @@ body{
 	color: var(navbar-text);
 }
 .navbar-default .navbar-nav > .active > a {
-	background-color: var(navbar-active-bg);
-	color: var(navbar-active-text);
+	background-color: var(--navbar-active-bg);
+	color: var(--navbar-active-text);
 	
 }
