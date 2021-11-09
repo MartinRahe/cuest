@@ -83,7 +83,7 @@ body{
 	padding-top:64px;
 	margin-top:-48px
 }
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
 	all:unset;
 }/*
 body::-webkit-scrollbar-track {
