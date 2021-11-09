@@ -85,15 +85,13 @@ body{
 }
 ::-webkit-scrollbar {
 	all:unset;
-}/*
+}
 body::-webkit-scrollbar-track {
-  background: orange;
+	all:unset;
 }
 body::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 10px;
+	all:unset;
 }
-*/
 .navbar-default {
 	background-color: var(--navbar-bg);
     border-color: var(--navbar-border);
