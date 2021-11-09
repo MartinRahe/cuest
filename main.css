@@ -4,6 +4,10 @@
 	--footer-bg: #F8F8F8;
 	--navbar-bg: #F8F8F8;
 	--navbar-border: #E7E7E7;
+	--navbar-text: #777777;
+	--navbar-hover: #333333;
+	--navbar-active-bg: #D5D5D5;
+	--navbar-text: #555555;
 }
 
 html[data-theme='dark'] {
@@ -12,6 +16,10 @@ html[data-theme='dark'] {
 	--footer-bg: #070707;
 	--navbar-bg: #070707;
 	--navbar-border: #181818;
+	--navbar-text: #888888;
+	--navbar-hover: #CCCCCC;
+	--navbar-active-bg: #2A2A2A;
+	--navbar-text: #AAAAAA;
 }
 
 html{
@@ -68,4 +76,5 @@ body{
 .navbar-default {
 	background-color: var(--navbar-bg);
     border-color: var(--navbar-border);
+	color: var(navbar-text);
 }
