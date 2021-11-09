@@ -85,9 +85,6 @@ body{
 	padding-top:64px;
 	margin-top:-48px
 }
-.scrollable-element {
-	scrollbar-color: dark;
-}
 
 .navbar-default {
 	background-color: var(--navbar-bg);
