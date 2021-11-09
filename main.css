@@ -1,5 +1,6 @@
 :root {
 	--body-bg: #FFFFFF;
+	--body-text: #333333;
 }
 
 html[data-theme='dark'] {
@@ -15,6 +16,7 @@ body{
 	margin-bottom:80px;
 	padding-top:50px;
 	background: var(--body-bg);
+	color: var(--body-text);
 }
 .footer{
 	position:absolute;
