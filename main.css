@@ -5,8 +5,8 @@
 	--navbar-bg: #F8F8F8;
 	--navbar-border: #E7E7E7;
 	--navbar-text: #777777;
-	--navbar-hover: #333333;
-	--navbar-active-bg: #D5D5D5;
+	--navbar-hover-text: #333333;
+	--navbar-active-bg: #E7E7E7;
 	--navbar-active-text: #555555;
 }
 
@@ -17,8 +17,8 @@ html[data-theme='dark'] {
 	--navbar-bg: #070707;
 	--navbar-border: #181818;
 	--navbar-text: #888888;
-	--navbar-hover: #CCCCCC;
-	--navbar-active-bg: #2A2A2A;
+	--navbar-hover-text: #CCCCCC;
+	--navbar-active-bg: #181818;
 	--navbar-active-text: #AAAAAA;
 }
 
@@ -76,10 +76,12 @@ body{
 .navbar-default {
 	background-color: var(--navbar-bg);
     border-color: var(--navbar-border);
-	color: var(navbar-text);
+	color: var(--navbar-text);
 }
 .navbar-default .navbar-nav > .active > a {
 	background-color: var(--navbar-active-bg);
-	color: var(--navbar-active-text);
-	
+	color: var(--navbar-active-text);	
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: var(--navbar-hover-text);
 }
