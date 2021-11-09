@@ -1,7 +1,9 @@
 :root {
 	--body-bg: #FFFFFF;
 	--body-text: #333333;
+	
 	--footer-bg: #F8F8F8;
+	
 	--navbar-bg: #F8F8F8;
 	--navbar-border: #E7E7E7;
 	--navbar-text: #777777;
@@ -13,7 +15,9 @@
 html[data-theme='dark'] {
 	--body-bg: #000000;
 	--body-text: #CCCCCC;
+	
 	--footer-bg: #070707;
+	
 	--navbar-bg: #070707;
 	--navbar-border: #181818;
 	--navbar-text: #888888;
@@ -72,6 +76,10 @@ body{
 #main h2{
 	padding-top:64px;
 	margin-top:-48px
+}
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
 }
 .navbar-default {
 	background-color: var(--navbar-bg);
