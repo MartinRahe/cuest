@@ -14,6 +14,7 @@ html{
 body{
 	margin-bottom:80px;
 	padding-top:50px;
+	background: var(--body-bg);
 }
 .footer{
 	position:absolute;
