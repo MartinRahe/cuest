@@ -89,30 +89,6 @@ body{
 	scrollbar-color: dark;
 }
 
-/*
-::-webkit-scrollbar {
-	all:auto;
-	background: blue;
-}
-::-webkit-scrollbar-button {
-	all:auto;
-}
-::-webkit-scrollbar-track {
-	all:auto;
-}
-::-webkit-scrollbar-track-piece {
-	all:auto;
-}
-::-webkit-scrollbar-thumb {
-	all:auto;
-}
-::-webkit-scrollbar-corner {
-	all:auto;
-}
-::-webkit-resizer {
-	all:auto;
-}*/
-
 .navbar-default {
 	background-color: var(--navbar-bg);
     border-color: var(--navbar-border);
