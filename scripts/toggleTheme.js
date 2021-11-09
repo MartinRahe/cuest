@@ -1,5 +1,4 @@
-function toggleTheme() {
+function toggleTheme(theme) {
 	const htmlEl = document.getElementsByTagName('html')[0];
-	htmlEl.setAttribute('data-theme','dark');
-	alert("test");
+	htmlEl.setAttribute('data-theme',theme);
 }
