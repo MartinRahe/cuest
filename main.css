@@ -85,6 +85,9 @@ body{
 	background-color: var(--navbar-active-bg);
 	color: var(--navbar-active-text);	
 }
+.navbar-default .navbar-nav > .open > a {
+	color: var(--navbar-text);
+}
 .navbar-default .navbar-nav > li > a:hover {
 	color: var(--navbar-hover-text);
 }
