@@ -1,0 +1,1 @@
+const htmlEl = document.getElementsByTagName('html')[0];
