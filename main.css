@@ -80,7 +80,8 @@ body{
 .navbar-default .navbar-nav > li > a {
 	color: var(--navbar-text);
 }
-.navbar-default .navbar-nav > .active > a {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
 	background-color: var(--navbar-active-bg);
 	color: var(--navbar-active-text);	
 }
