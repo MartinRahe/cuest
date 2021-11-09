@@ -81,11 +81,15 @@ body{
 	color: var(--navbar-text);
 }
 .navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
 	background-color: var(--navbar-active-bg);
 	color: var(--navbar-active-text);	
 }
-.navbar-default .navbar-nav > .open > a {
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: var(--navbar-bg);
 	color: var(--navbar-text);
 }
 .navbar-default .navbar-nav > li > a:hover {
