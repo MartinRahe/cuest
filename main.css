@@ -2,7 +2,7 @@
 	--body-bg: #FFFFFF;
 }
 
-:root.dark-mode {
+html[data-theme='dark'] {
 	--body-bg: #000000;
 }
 
