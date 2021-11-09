@@ -84,6 +84,7 @@ body{
 	margin-top:-48px
 }
 body::-webkit-scrollbar {
+	all:unset;
     background-color: blue;
 }/*
 body::-webkit-scrollbar-track {
