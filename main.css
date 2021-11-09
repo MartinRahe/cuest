@@ -91,6 +91,7 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
 	all:auto;
+	background: red;
 }
 .navbar-default {
 	background-color: var(--navbar-bg);
