@@ -90,7 +90,6 @@ body::-webkit-scrollbar-track {
 	all:auto;
 }
 body::-webkit-scrollbar-thumb {
-	all:auto;
 	background: red;
 }
 .navbar-default {
