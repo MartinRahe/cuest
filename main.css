@@ -83,6 +83,11 @@ body{
 	padding-top:64px;
 	margin-top:-48px
 }
+.scrollable-element {
+	scrollbar-color: dark;
+}
+
+/*
 ::-webkit-scrollbar {
 	all:auto;
 	background: blue;
@@ -90,13 +95,13 @@ body{
 ::-webkit-scrollbar-button {
 	all:auto;
 }
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 	all:auto;
 }
 ::-webkit-scrollbar-track-piece {
 	all:auto;
 }
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	all:auto;
 }
 ::-webkit-scrollbar-corner {
@@ -104,7 +109,7 @@ body::-webkit-scrollbar-thumb {
 }
 ::-webkit-resizer {
 	all:auto;
-}
+}*/
 
 .navbar-default {
 	background-color: var(--navbar-bg);
