@@ -4,6 +4,8 @@
 	
 	--footer-bg: #F8F8F8;
 	
+	--list-text: #555555;
+	
 	--navbar-bg: #F8F8F8;
 	--navbar-border: #E7E7E7;
 	--navbar-text: #777777;
@@ -51,7 +53,9 @@ body{
 }
 #index-group
 .list-group-item{
-	min-height:64px
+	min-height:64px;
+	background-color: var(--body-bg);
+	color: var(--list-text);
 }
 .date{
 	white-space:nowrap;
