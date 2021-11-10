@@ -32,10 +32,15 @@
 						<a href="javascript:document.location.href=self.location.href.replace('/en/', '/');" lang="et" hreflang="et">Eesti Keeles</a>
 					</li>
 					<li>
-						<a href="javascript:{}" onclick="toggleTheme('dark')" aria-label="Dark mode"><i class="fa fa-moon-o" aria-hidden="true"></i></a>
-					</li>
-					<li>
-						<a href="javascript:{}" onclick="toggleTheme('light')" aria-label="Light mode"><i class="fa fa-sun-o" aria-hidden="true"></i></a>
+						<a href="javascript:{}" style="height:50px;" aria-label="Toggle mode">
+						<i class="fa fa-sun-o" aria-hidden="true"></i>
+							<label class="switch">
+								<input type="checkbox" id="toggletheme" onclick="toggleTheme()">
+									<span class="slider round">
+									</span>
+							</label>
+						<i class="fa fa-moon-o" aria-hidden="true"></i>
+						</a>
 					</li>
 				</ul>
 			</div>
