@@ -4,6 +4,7 @@ if (currentTheme) {
     htmlEl.dataset.theme = currentTheme;
 }
 function toggleTheme(theme) {
+	currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 	if (currentTheme == 'dark') {
 		theme = 'light';
 	}
