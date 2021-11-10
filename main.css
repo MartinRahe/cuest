@@ -153,7 +153,8 @@ body{
   left: 2px;
   bottom: 2px;
   background-color: var(--body-bg);
-  transition: .4s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 input:checked + .slider {
