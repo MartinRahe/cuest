@@ -3,9 +3,11 @@ var currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme')
 if (currentTheme) {
     htmlEl.dataset.theme = currentTheme;
 }
-if (currentTheme == 'dark') {
-	document.getElementById("toggletheme").checked = true;
-}
+window.addEventListener("load", function () {
+	if (currentTheme == 'dark') {
+		document.getElementById("toggletheme").checked = true;
+	}
+});
 function toggleTheme(theme) {
 	currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 	if (currentTheme == 'dark') {
