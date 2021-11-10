@@ -4,6 +4,12 @@ if (currentTheme) {
     htmlEl.dataset.theme = currentTheme;
 }
 function toggleTheme(theme) {
+	if (currentTheme == 'dark') {
+		theme = 'light';
+	}
+	else {
+		theme = 'dark';
+	}
 	htmlEl.setAttribute('data-theme',theme);
     localStorage.setItem('theme', theme);
 }
