@@ -140,7 +140,7 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--navbar-active-bg);
+  background-color: var(--navbar-text);
   -webkit-transition: .4s;
   transition: .4s;
 }
