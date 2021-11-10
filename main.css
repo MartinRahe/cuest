@@ -141,8 +141,6 @@ body{
   right: 0;
   bottom: 0;
   background-color: var(--navbar-text);
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
 .slider:before {
@@ -153,8 +151,6 @@ body{
   left: 2px;
   bottom: 2px;
   background-color: var(--body-bg);
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
 input:checked + .slider {
