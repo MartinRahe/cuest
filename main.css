@@ -141,6 +141,8 @@ body{
   right: 0;
   bottom: 0;
   background-color: var(--navbar-text);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .slider:before {
