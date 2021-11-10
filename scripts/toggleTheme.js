@@ -5,7 +5,7 @@ if (currentTheme) {
 }
 window.addEventListener("load", function () {
 	if (currentTheme == 'dark') {
-		document.getElementById("toggletheme").checked = true;
+		setTimeout(()=>{document.getElementById("toggletheme").checked = true;},50)
 	}
 });
 function toggleTheme(theme) {
