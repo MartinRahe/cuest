@@ -124,7 +124,7 @@ body{
   position: relative;
   display: inline-block;
   width: 40px;
-  height: 20px;
+  height: 24px;
 }
 
 .switch input {
@@ -173,7 +173,7 @@ input:checked + .slider:before {
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 20px;
+  border-radius: 24px;
 }
 
 .slider.round:before {
