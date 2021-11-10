@@ -154,7 +154,6 @@ body{
   bottom: 2px;
   background-color: var(--body-bg);
   -webkit-transition: .4s;
-  transition: .4s;
 }
 
 input:checked + .slider {
