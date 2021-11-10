@@ -140,7 +140,7 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--navbar-bg);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -177,5 +177,5 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-  border-radius: 100%;
+  border-radius: 50%;
 }
